@@ -5,7 +5,7 @@ function cal() {
     var r = parseInt(document.forms['form']['r'].value);
     var r2 = parseInt(document.forms['form']['r2'].value);
     var textThing = document.querySelector(".result");
-    
+    textThing.innerHTML = "";
     if (a == "") {
     alert("Todos os valores precisam ser preenchidos.");
     return false;
