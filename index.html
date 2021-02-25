@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Progressao Aritmetica</title>
+    <link href="progressaoAritmetica.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form class="box" method="dialog" name="form" onsubmit="return calc();">
+
+    <span class="boxhead"><h1>
+    Calcular Progressao</h1>
+    </span>
+
+    <input class="num" name="a" placeholder="Insira a base" type="number"><br>
+    <input class="num" name="a2" placeholder="qual a posicao dela?" type="number"><br>
+    <input class="num" name="r" placeholder="Insira a razao" type="number"><br>
+    <input class="num" name="r2" placeholder="Insira o termo desejado" type="number"><br>
+    <h2><output name="form" id="form"></output></h2>
+
+    <button class="button" onclick="cal()">Calcular</button>
+    <button class="side" onclick="how()">Como funciona?</button>
+    <div class="result">
+    </div>
+    <div class="credit cc_cursor"></div>
+    
+</form>
+<script src="main.js"></script>
+</body>
+</html>
